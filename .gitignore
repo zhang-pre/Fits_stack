@@ -1,8 +1,14 @@
 # 排除所有文件夹
 */
 
+# 排除以.fit为后缀的文件
+*.fit
+
+# 排除以.fits为后缀的文件
+*.fits
+
 # 包含position文件夹
-!/position/**
+!/position/
 
 # 包含以.py为后缀的文件
 !*.py
